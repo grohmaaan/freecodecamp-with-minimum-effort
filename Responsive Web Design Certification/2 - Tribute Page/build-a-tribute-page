@@ -1,0 +1,53 @@
+** start of undefined **
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<title id="title">Generic Tribute Page</title>
+</head>
+<body>
+    <main id="main">
+
+<div id="img-div">
+    <img id="image" src="path/to/image.jpg" alt="Description">
+    <div id="img-caption">Your caption here</div>
+</div>
+
+
+     
+        <p id="tribute-info">info about this generic tribute page</p>
+        <a id="tribute-link" target="_blank" href="example.com">nope</a>
+    </main>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+ #image {
+   max-width: 100%;
+
+ }
+
+#img-div {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    flex-direction: column;  /* Stacks #image and #img-caption vertically */
+    height: 100vh;           /* Adjust as needed */
+}
+
+
+#img-caption {
+    margin-top: 10px; /* Adjusts spacing below the image */
+}
+
+
+** end of undefined **
+
