@@ -1,0 +1,50 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<h1 id="title">Survey Form</h1>
+<p id="description"> Thank you for taking the time to answer our survey</p>
+
+<form id="survey-form">
+  <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Type in your name" required></input></label>
+  <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Type in your email" required></input></label>
+ <label id="number-label" for="number"> Age<input id="number" placeholder="Enter your age" type="number" min="1" max="120"></input></label>
+ <select id="dropdown">
+   <option>Option 1</option>
+   <option>Option 2</option>
+ </select>
+ <input name="rad" value="IamHuman" type="radio">Jsem clovek</input>
+<input name="rad" value="IamNotHuman" type="radio">Nejsem clovek</input>
+<input type="checkbox" name="chckbx" value="firstchckbx">First checkbox</input>
+<input type="checkbox" name="chckbx" value="secondchckbx">Second checkbox</input>
+<input type="checkbox" name="chckbx" value="thirdchckbx">Third checkbox</input>
+<input type="checkbox" name="chckbx" value="fourthchckbx">Fourth checkbox</input>
+<input type="checkbox" name="chckbx" value="fifthchckbx">Fifth checkbox</input>
+<input type="checkbox" name="chckbx" value="sixthchckbx">Sixth checkbox</input>
+<input type="checkbox" name="chckbx" value="seventhchckbx">Seventh checkbox</input>
+<input type="checkbox" name="chckbx" value="eighthchckbx">Eighth checkbox</input>
+<input type="checkbox" name="chckbx" value="ninethchckbx">Nineth checkbox</input>
+<label>
+Have any additional comments?:
+</label>
+  <textarea placeholder="Enter your comment here">
+</textarea>
+
+
+<button id="submit">Submit</button>
+</form>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
